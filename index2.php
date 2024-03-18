@@ -30,7 +30,7 @@
     </div>
 
     <!-- Start of Form -->
-    <form>
+    <form method="POST" action="process_form.php">
         
     <!-- Section  1: Select Department -->
     <div class="container mt-3" id="formContainer">
@@ -439,9 +439,11 @@
             </div>
             <div class="d-flex justify-content-center">
                <button type="button" class="btn btn-primary mr-2" onclick="previousSection(5)">Previous</button>
+               <button type="submit" class="btn btn-primary">Submit</button>
            </div>
       </div>
     </div>
+
 
     </form>
 
