@@ -44,14 +44,14 @@
                 <option>Department  3</option>
             </select>
         </div>
-        <div class="d-flex justify-content-center">
+        <!-- <div class="d-flex justify-content-center">
             <button type="button" class="btn btn-primary" onclick="nextSection(2)">Next</button>
-        </div>
+        </div> -->
     </div>
 
     <!-- Section  2: Client Info -->
     <div class="container mt-3" id="formContainer">
-        <div id="section2" class="form-section" style="display: none;">
+        <div id="section2" class="form-section">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" name="name">
@@ -104,16 +104,16 @@
                     <input type="text" class="form-control" id="service" name="serivce" required>
                 </div>
             </div>
-             <div class="d-flex justify-content-center">
+            <!-- <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-primary mr-2" onclick="previousSection(1)">Previous</button>
                 <button type="button" class="btn btn-primary" onclick="nextSection(3)">Next</button>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- CC Questions -->
     <div class="container mt-3" id="formContainer">
-        <div id="section3" class="form-section" style="display: none;">
+        <div id="section3" class="form-section">
             <div class="container mt-3">   
                 <p class="text-justify">
                     <b>INSTRUCTIONS:</b> Select your answer to the Citizen's Charter (CC) questions. The Citizen's Charter is an official document that reflects the services of a government agency/office including its requirements, fees, and processing times among times.
@@ -182,17 +182,17 @@
                         <label class="form-check-label" for="question3Option4">N/A</label>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <!-- <div class="d-flex justify-content-center">
                     <button type="button" class="btn btn-primary mr-2" onclick="previousSection(2)">Previous</button>
                     <button type="button" class="btn btn-primary" onclick="nextSection(4)">Next</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
     <!-- SQD -->
     <div class="container mt-3" id="formContainer">
-        <div id="section4" class="form-section" style="display: none;">
+        <div id="section4" class="form-section">
             <div class="table-responsive">
                 <p class="text-justify">
                     <b>INSTRUCTIONS:</b> For Survey Question (SQD) 0-8, please select the column that best corrsponds to your answer.
@@ -409,36 +409,36 @@
                     </tbody>
                 </table>
             </div>
-            <div class="d-flex justify-content-center">
+            <!-- <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-primary mr-2" onclick="previousSection(3)">Previous</button>
                 <button type="button" class="btn btn-primary" onclick="nextSection(5)">Next</button>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- Suggestions -->
     <div class="container mt-3" id="formContainer">
-        <div id="section5" class="form-section" style="display: none;">
+        <div id="section5" class="form-section">
             <div class="form-group">
                 <label for="suggestions">Suggestions on how we can further improve our services (Optional):</label>
                 <textarea class="form-control" name="suggestions" id="suggestions" rows="3"></textarea>
             </div>
-            <div class="d-flex justify-content-center">
+            <!-- <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-primary mr-2" onclick="previousSection(4)">Previous</button>
                 <button type="button" class="btn btn-primary" onclick="nextSection(6)">Next</button>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- Contact Info -->
     <div class="container mt-3" id="formContainer">
-        <div id="section6" class="form-section" style="display: none;">
+        <div id="section6" class="form-section">
             <div class="form-group">
                  <label for="contact">Email Address/Cellphone Number/Facebook Messenger Account (Optional):</label>
                   <textarea class="form-control" name="contact" id="contact" rows="3"></textarea>
             </div>
             <div class="d-flex justify-content-center">
-               <button type="button" class="btn btn-primary mr-2" onclick="previousSection(5)">Previous</button>
+               <!-- <button type="button" class="btn btn-primary mr-2" onclick="previousSection(5)">Previous</button> -->
                <button type="submit" class="btn btn-primary">Submit</button>
            </div>
       </div>
@@ -447,8 +447,8 @@
 
     </form>
 
-<!-- extrenal js -->
-<script src="script.js"></script>
+<!-- extrenal js
+<script src="script.js"></script> -->
 
 <!-- JQuery, Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
